@@ -1,0 +1,162 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body {
+	background-color: rgb(235, 217, 217);
+}
+
+#wrap {
+	width: 800px;
+	margin: 0 auto;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+header > .text-center {
+	font-size: 48px;
+	font-family: 'Jua', sans-serif;
+}
+
+.menu {
+	margin: 20px 0;
+	padding: 5px 5px;
+
+	background-color: #fefefe;
+	border: 1px solid #fff;
+}
+
+.menu > .cut {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+
+	background-size: 780px 50px;
+}
+
+/* 썸네일 */
+.menu > .dolls {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+
+	height: 410px;
+
+	margin-top: 20px;
+}
+
+/* 썸네일 yellow */
+.menu > .dolls > .ythmbs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+
+	width: 390px;
+}
+
+.menu > .dolls > .ythmbs > li {
+	width: 195px;
+}
+
+.menu > .dolls > .ythmbs > li:hover {
+	background-position: 0 -200px;
+}
+
+.menu > .dolls > .ythmbs > li:nth-child(1) {
+	background-image: url(./../images/ts1.png);
+}
+.menu > .dolls > .ythmbs > li:nth-child(2) {
+	background-image: url(./../images/ts2.png);
+}
+.menu > .dolls > .ythmbs > li:nth-child(3) {
+	background-image: url(./../images/ts3.png);
+}
+.menu > .dolls > .ythmbs > li:nth-child(4) {
+	background-image: url(./../images/ts4.png);
+}
+
+.menu > .dolls > .ythmbs > li > a {
+	display: block;
+	height: 200px;
+
+	text-indent: -9999px;
+}
+
+/* 썸네일 pink */
+
+.menu > .dolls > .pthmbs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	width: 390px;
+}
+
+.menu > .dolls > .pthmbs > li {
+	display: block;
+	width: 195px;
+}
+
+.menu > .dolls > .pthmbs > li:hover {
+	background-position: 0 -200px;
+}
+
+.menu > .dolls > .pthmbs > li:nth-child(1) {
+	background-image: url(./../images/pt1.png);
+}
+.menu > .dolls > .pthmbs > li:nth-child(2) {
+	background-image: url(./../images/pt2.png);
+}
+.menu > .dolls > .pthmbs > li:nth-child(3) {
+	background-image: url(./../images/pt3.png);
+}
+.menu > .dolls > .pthmbs > li:nth-child(4) {
+	background-image: url(./../images/pt4.png);
+}
+
+.menu > .dolls > .pthmbs > li > a {
+	display: block;
+	height: 200px;
+
+	text-indent: -9999px;
+}
+
+.main > .visual {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+
+	margin: 20px 0;
+
+	text-indent: -9999px;
+}
+
+/* 바뀌는화면 */
+.main > .visual > .yellow {
+	width: 395px;
+	height: 400px;
+	background-image: url(./../images/M1.png);
+}
+
+.main > .visual > .pink {
+	width: 395px;
+	height: 400px;
+	background-image: url(./../images/M2.png);
+}
+
+.f5 > .refresh > a {
+	display: block;
+	height: 400px;
+	margin-top: 10px;
+
+	text-indent: -9999px;
+
+	background-image: url(./../images/Main.png);
+	background-repeat: no-repeat;
+}
